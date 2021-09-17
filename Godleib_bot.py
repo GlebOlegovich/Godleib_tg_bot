@@ -12,7 +12,7 @@ load_dotenv()
 
 secret_token = os.getenv('TOKEN')
 
-updater = Updater(token=secret_token)
+updater = Updater(token=secret_token, use_context=True)
 
 
 CATS_URL = 'https://api.thecatapi.com/v1/images/search'
