@@ -1,0 +1,1 @@
+worker: python Godleib_bot.py
