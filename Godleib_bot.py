@@ -26,7 +26,7 @@ SANO = [
 def buttons():
     buttons = ReplyKeyboardMarkup([
                 ['/newcat'], ['/newdog'],
-                ['/newfox'],['Смотри, какая су4ка'],
+                ['/newfox'],['Смотри, какая...'],
                 ['Ну давай, рискни (DANGER, не нажимай сюда!)']
             ],
             resize_keyboard = True
